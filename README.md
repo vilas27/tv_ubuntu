@@ -43,7 +43,7 @@ Not available in 16.10.
 
 GCC 7 was release in May 2017, so too late for 17.04 main release.
 
-##Give root access to display (08/01/2018)
+## Give root access to display (08/01/2018)
 
 By default 17.10 does not allow root to access your display.
 
