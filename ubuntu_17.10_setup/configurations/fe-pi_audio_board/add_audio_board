@@ -1,0 +1,22 @@
+https://fe-pi.com/p/support-and-setup
+
+Fe-Pi Audio board driver code are now in the official Raspberry Pi kernel since v4.9.13   https://github.com/raspberrypi/linux/pull/1867
+
+GPIO pins the Fe-Pi Audio Z V1 and V2 boards uses can be found (https://drive.google.com/file/d/0B6Iw7GrAjGT_NWdJV2VaM2NrUWs/view). 
+
+Configuring Fe-Pi Audio is done using Device Tree overlays.
+
+To do this, you must edit /boot/config.txt and add the following lines...
+dtoverlay=fe-pi-audio
+
+If you want the on-board Raspberry Pi sound devices(HDMI, 3.5mm jack) to be disabled then change...
+dtparam=audio=on to dtparam=audio=off
+
+Run the following command to edit the file.
+sudo nano /boot/config.txt
+
+Reboot the Raspberry Pi.
+
+Run the following commands to display a list of Audio Devices.
+aplay –l
+arecord –l
