@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=Oxygen
+Name=Eclipse
+Comment=Eclipse is an IDE
+Exec=/home/vilas/eclipse/cpp-oxygen/eclipse/eclipse
+Path=/home/vilas/eclipse/cpp-oxygen/eclipse/
+Icon=/home/vilas/eclipse/cpp-oxygen/eclipse/icon.xpm
+Terminal=false
+Type=Application
+Categories=Utility;Application;Development;
