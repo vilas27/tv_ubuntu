@@ -1,0 +1,11 @@
+[http]
+    sslVerify = false
+[user]
+    email = vilas_33@hotmail.com
+    name = Tiago Vilas
+[alias]
+    pl = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[credential]
+    helper = cache
+[stash]
+    showPatch = true
