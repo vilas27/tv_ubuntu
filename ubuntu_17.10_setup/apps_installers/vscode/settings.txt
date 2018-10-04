@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "files.autoSave": "afterDelay",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "all",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "cSpell.userWords": [
+        "Alsa",
+        "Bubu",
+        "Dirent",
+        "Socker",
+        "Submodules",
+        "adddatetime",
+        "chrono",
+        "datetime",
+        "dockerize",
+        "markdata",
+        "millis",
+        "millisec",
+        "msvc",
+        "socketio",
+        "submodule",
+        "vilas"
+    ],
+    "markdown-toc.insertAnchor": true,
+    "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "gitlens.keymap": "alternate",
+    "gitlens.historyExplorer.enabled": true,
+    "window.zoomLevel": 0,
+ }
