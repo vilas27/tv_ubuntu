@@ -30,3 +30,12 @@ Error: gtk warning cannot open display :0.0
 ```javascript
 xhost +si:localuser:root
 ```
+
+## Git, Remove file from commit
+
+```console
+git rebase -i <commit_to_change>^
+git checkout HEAD^ <file_to_remove>
+git commit --amend
+git rebase --continue
+```
